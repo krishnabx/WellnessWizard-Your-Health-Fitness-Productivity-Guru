@@ -27,8 +27,9 @@ In summary, the Langchain framework orchestrates the integration of components, 
 
 Streamlit Instructions:
 
-Select for the catebory of apps from the three drop downs (Fitness, Health and Productivity)
-2.Enter your query
-Enter if any app summarizations needed
-Look for the visualizations
+1. Select for the catebory of apps from the three drop downs (Fitness, Health and Productivity)
+2. Enter your query
+3. Enter if any app summarizations needed
+4. Look for the visualizations
+
 Codelab Link: https://codelabs-preview.appspot.com/?file_id=11wP6_UTPNx8adUSvqu2HfzSj3Jyls0qRqGa70TaNgDM#0
