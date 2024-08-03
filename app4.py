@@ -12,7 +12,7 @@ from dotenv import load_dotenv, find_dotenv
 
 #load_dotenv(find_dotenv())
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "<openai-API>"
 
 def read_from_s3(file_name):
     s3 = boto3.client('s3',aws_access_key_id="AKIATIOAOM2VOUMBPVVI",aws_secret_access_key="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")
