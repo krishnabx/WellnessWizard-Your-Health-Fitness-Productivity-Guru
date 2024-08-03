@@ -1,6 +1,6 @@
 # WellnessWizard-Your-Health-Fitness-Productivity-Guru
 
-WellnessWizard-Your-Health-Fitness-Productivity-Guru
+
 This chatbot represents an advancement in the field of prompt engineering by querying and analysis. It leverages Langchain's language model to generate intelligent and contextually relevant prompts. It enables the users to efficiently interact with diverse data from 3 categories. Health Productivity Fitness Paving the way for improved decision-making and seamless data exploration. It harnesses the potential of Lang chain's cutting-edge language models and presents through an intuitive Streamlit user interface. The chat bot will recommend and answer queries by providing information about apps, addressing queries, and recommending relevant apps based on user input. Overall the goal is to target health enthusiasts or someone keen on productivity and empower users with diverse backgrounds to effortlessly gain insights and achieve their health and fitness aspirations.
 
 Data Source
