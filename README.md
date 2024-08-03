@@ -3,17 +3,17 @@
 
 This chatbot represents an advancement in the field of prompt engineering by querying and analysis. It leverages Langchain's language model to generate intelligent and contextually relevant prompts. It enables the users to efficiently interact with diverse data from 3 categories. Health Productivity Fitness Paving the way for improved decision-making and seamless data exploration. It harnesses the potential of Lang chain's cutting-edge language models and presents through an intuitive Streamlit user interface. The chat bot will recommend and answer queries by providing information about apps, addressing queries, and recommending relevant apps based on user input. Overall the goal is to target health enthusiasts or someone keen on productivity and empower users with diverse backgrounds to effortlessly gain insights and achieve their health and fitness aspirations.
 
-##Data Source
+## Data Source
 
-Web Scraping For each category, app information is scraped using the app function from the google play scraper library. The information includes details such as title, score, ratings, whether it contains ads, price, whether it's free, real installs, release date, in-app product price, and the app icon. Dataframes are created for each category using the information collected. These data frames contain selected columns of app information.
+  1. Web Scraping For each category, app information is scraped using the app function from the google play scraper library. The information includes details such as title, score, ratings, whether it contains ads, price, whether it's free, real installs, release date, in-app product price, and the app icon. Dataframes are created for each category using the information collected. These data frames contain selected columns of app information.
 The script efficiently gathers comprehensive data on mobile applications, facilitating subsequent analysis and insights into app performance and user feedback in the specified categories.
 
-##Data Collection
+## Data Collection
 
-Amazon S3:
+1. Amazon S3:
 The function creates an S3 client using the boto3 library, specifying AWS access key ID and secret access key for authentication. The access key ID and secret access key provided are usually kept secure. This can be particularly useful for archiving, data backup, or facilitating collaborative data analysis workflows.
 
-##Model Development
+## Model Development
 
 Framework - Langchain: Langchain serves as the overarching framework for the chatbot development process. It provides the structure and tools necessary to seamlessly integrate various components of the chatbot, including language models, data processing agents, and user interfaces. Langchain likely offers a set of functionalities that streamline the development workflow, making it easier for developers to work with natural language processing tasks.
 
